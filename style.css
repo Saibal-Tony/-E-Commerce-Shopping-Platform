@@ -386,8 +386,7 @@ width :100%;
     background-image: url("img/b14.png"); 
     background-repeat: no-repeat;
     background-position: 20% 30%;
-    background-color: #041e42;
-    
+    background-color: #041e42; 
 }
 #newsletter h4{
     font-size: 28px;
@@ -576,6 +575,55 @@ footer .copyright{
 
 /* ------------for width 799px---------- */
 @media (max-width: 477px) {
-    
-    
+    .section-p1{
+        padding: 20px;
+    }
+    h1 {
+        font-size: 38px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    #header{
+        display:flex ;
+        padding: 10px 30px;
+    }
+    #hero{
+        background-position: 55%;
+        padding: 0 20px;
+    }
+    #feature{
+        justify-content: space-between;
+    }
+    #feature .fe-box{
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+    #products .pro{
+        width: 100%;
+    }
+    #banner{
+        height: 40vh;
+    }
+    #sm-banner .banner-box{
+        height: 40vh;
+    }
+    #sm-banner .banner-box2{
+        margin-top: 20px;
+    }
+    #banner2{
+        padding: 0 20px;
+    }
+    #banner2 .banner-box{
+        width: 100%;
+    }
+    #newsletter{
+        padding: 40px 20px;
+    }
+    #newsletter .form{
+        width: 100%;
+    }
+    footer .copyright{
+        text-align: start;
+    }
 }
